@@ -413,7 +413,7 @@ export default function Home() {
           <div className="gfooter-links">
             <a href="#">Privacy</a>
             <a href="#">Terms</a>
-            <a href="mailto:hello@garnish.ai">Support</a>
+            <a href="mailto:mygarnishapp@gmail.com">Support</a>
           </div>
           <div className="gfooter-copy">© 2026 Garnish. All rights reserved.</div>
         </footer>
