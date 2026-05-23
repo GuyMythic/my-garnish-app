@@ -234,7 +234,7 @@ export default function Home() {
             <li><a href="#waitlist">Waitlist</a></li>
           </ul>
           <div className="gnav-r">
-            <button className="btn-ghost-nav">Login</button>
+            <a href="/login"><button className="btn-ghost-nav">Login</button></a>
             <button className="btn-solid-nav" onClick={scrollToWaitlist}>Join Waitlist</button>
           </div>
         </nav>

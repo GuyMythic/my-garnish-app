@@ -1,9 +1,8 @@
-import { createClient } from "@supabase/supabase-js";
+import { createBrowserClient } from '@supabase/ssr'
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
-
-export const supabase = createClient(
-  supabaseUrl,
-  supabaseAnonKey
-);
+// Instantiates a client that automatically reads/writes browser cookies 
+// so that your server-side middleware stays in perfect alignment.
+export const supabase = createBrowserClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+)
