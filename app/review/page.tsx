@@ -12,7 +12,7 @@ export default function GuestReviewPage() {
 
   // 1. UPDATED REAL GOOGLE REVIEW OVERLAY TARGET
   const restaurantName = "Rocket Beans";
-  const googleMapsUrl = "https://www.google.com/search?q=edda+coffee&rlz=1C5CHFA_enUS1102US1102&oq=edda&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDnSAQgxMjY5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lrd=0x8830f17a0f64ef23:0xf1af1b540a9736ec,1,,,,";
+  const googleMapsUrl = "https://share.google/kbqk7xRboCY8g1Gh7";
 
   useEffect(() => {
     const timer = setTimeout(() => setIsAnimated(true), 50);
